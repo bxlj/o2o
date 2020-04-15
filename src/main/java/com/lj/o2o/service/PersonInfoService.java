@@ -1,0 +1,13 @@
+package com.lj.o2o.service;
+
+import com.lj.o2o.entity.PersonInfo;
+
+public interface PersonInfoService {
+
+	/**
+	 * 根据用户Id获取personInfo信息
+	 * @param Id
+	 * @return
+	 */
+	PersonInfo getPersonInfoById(Long userId);
+}
